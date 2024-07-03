@@ -1,0 +1,17 @@
+/patinhaFeliz
+    /css
+        styles.css
+    /images
+        logo.png
+        animal1.jpg
+        animal2.jpg
+        racao1.jpg
+        racao2.jpg
+        brinquedo1.jpg
+        brinquedo2.jpg
+    /js
+        scripts.js
+    index.html
+    register.html
+    login.html
+    payment.html

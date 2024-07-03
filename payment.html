@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento - PatinhaFeliz</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.avif" alt="Logo PatinhaFeliz">
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="register.html">Registro</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="payment.html">Pagamento</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="payment">
+            <h1>Pagamento</h1>
+            <form id="payment-form">
+                <label for="card-number">Número do Cartão:</label>
+                <input type="text" id="card-number" name="card-number" required>
+
+                <label for="card-name">Nome no Cartão:</label>
+                <input type="text" id="card-name" name="card-name" required>
+
+                <label for="expiry-date">Data de Validade:</label>
+                <input type="text" id="expiry-date" name="expiry-date" required placeholder="MM/AA">
+
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" required>
+
+                <button type="submit">Pagar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 PatinhaFeliz. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
